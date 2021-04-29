@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-size: 17px;
+
+}
+body a{
+    text-decoration: none;
+}
+ /*HEADER*/
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/images/luxury.jpg");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+
+}
+#header-img{
+    width: 70%;
+    border-radius: 50%;
+}
+/*NAVBAR*/
+
+#navbar a{
+
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    padding:10px 10px;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#navbar a:hover{
+    color: white;
+
+}
+.fixme{
+    position: fixed;
+    top:-1px;
+    z-index: 5;
+}
+
+.aboutme{
+    padding: 10px;
+    text-align: justify;
+}
+.total-project , .total-student{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background: yellow;
+}
+.fontawesome{
+    font-size: 30px;
+    color: green;
+}
+    /*myproject*/
+.single-project{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background: yellow;
+}
+/*LATEST POST*/
+.latest-post img{
+    margin: 10px;
+    width: 90%;
+    height: 180px;
+    border-radius: 5px;
+}
+.latest-post p{
+    text-align: justify;
+}
+.latest-post a{
+    color: white;
+    padding: 10px;
+}
+
+/*FOOTER */
+.footer .f-column{
+    text-align: justify;
+    color: white;
+    background: black;
+    padding: 25px;
+}
+.footer .s-column{
+    text-align: left;
+    color: white;
+    background: black;
+    padding: 25px;
+}
+.footer .t-column{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 25px;
+
+
+}
+.footer .t-column i{
+    font-size: 25px;
+    margin: 15px;
+    transition: 0.4s;
+    opacity: 40%;
+}
+.footer .t-column i:hover{
+    font-size: 40px;
+    opacity: 100%;
+}
+
+
+/*blog posts*/
+.blog{
+    padding: 20px;
+    text-align: justify;
+}
+.blog img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+/*sidebar*/
+.sidebar{
+    padding: 20px;
+}
+.sidebar input[type='text']{
+    border-radius: 5px 0 0 5px;
+}
+.sidebar button{
+    border-radius: 0 5px 5px 0;
+}
+
+/*DETAIL POSTS*/
+.detail-post{
+    padding: 20px;
+}
+.detail-post img{
+    border-radius: 5px;
+    width: 100%;
+}
+.message-box img{
+    width: 35px;
+    padding-bottom: 50px;
+}
+.message-box p{
+
+    display: inline-block;
+    border-radius: 5px;
+    padding: 14px;
+    margin: 10px 0 0 10px;
+    background: #D5D8DC;
+}
